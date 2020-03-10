@@ -20,17 +20,17 @@ h2 {
 	font-size: 1.5em;
 }
 
-#container{
+.container{
     width: 95%;
     margin: 0 auto;
 }
 
-#nav {
+.item {
     padding: 5;
 	  list-style-type: none;
 }
 
-#nav li {
+.item li {
     margin: 0;
     padding: 0;
 	  border-bottom: 2px solid #aaa;
@@ -60,4 +60,33 @@ h2 {
 
 img {
 	border: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.container {
+		margin-right: auto;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 400px) {
+	.container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 }
