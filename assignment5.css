@@ -25,18 +25,18 @@ h2 {
     margin: 0 auto;
 }
 
-.item {
+a {
     padding: 5;
 	  list-style-type: none;
 }
 
-.item li {
+a {
     margin: 0;
     padding: 0;
 	  border-bottom: 2px solid #aaa;
 }
 
-#nav a:link, #nav a:visited {
+.container a:link, .container a:visited {
 	  display:block;
     color: #ffffff;
     background-color: #add8e6;
@@ -47,7 +47,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-#nav a:hover, #nav a:active {
+.container a:hover, .container a:active {
     background-color: #72bcd4;
 }
 
@@ -64,7 +64,7 @@ img {
 
 .container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 }
 
@@ -77,16 +77,9 @@ img {
 }
 
 @media (min-width: 800px) {
-
 	.container {
+		flex-direction: column;
 		margin-right: auto;
-		justify-content: space-between;
-	}
-}
-
-@media (min-width: 400px) {
-	.container {
-		flex-direction: row;
 		justify-content: space-between;
 	}
 }
