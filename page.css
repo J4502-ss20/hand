@@ -1,0 +1,38 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lora', serif;
+  padding: 0;
+  margin: 0;
+	background: #fff;
+}
+
+h1 {
+	/*margin: 16px auto;
+	width: 95%;*/
+	padding-left: 5%;
+	border-bottom: 1px solid #ccc;
+}
+.grid {
+  background: #fff;
+  border-radius: 0.285em;
+  box-shadow: 0 0.1em 0 0 rgba(0,0,0,0.1);
+	margin: 45px auto;
+}
+
+.example {
+    max-width: 800px;
+    margin: 0 auto 1em auto;
+    background-color: #fff;
+    padding: 20px;
+   /* border-radius: 5px;*/
+
+}

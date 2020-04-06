@@ -1,0 +1,43 @@
+/*Styles go here*/
+
+.cards {
+    grid-template-areas:
+        "a a b"
+        "c d e";
+}
+
+.one {
+    grid-area: a;
+}
+
+.two {
+    grid-area: b;
+}
+
+.three {
+    grid-area: c;
+}
+
+.four {
+    grid-area: d;
+}
+
+.five {
+  grid-area: e;
+}
+
+.cards {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards li {
+    background-color: #add8e6;
+    border: 2px solid #aaa;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
