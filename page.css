@@ -17,19 +17,3 @@ h1 {
   box-shadow: 0 0.1em 0 0 rgba(0,0,0,0.1);
 	margin: 45px auto;
 }
-
-@media (min-width: 600px) {
- .cards {
-   max-width: 500px;
-   grid-template-areas:
-   "a a"
-   "b c"
-   "d e"
- }
-}
-
-@media (min-width:800px) {
- .cards {
-   max-width: 650px;
- }
-}
