@@ -5,7 +5,8 @@ body {
 
 nav ul li {
     display: block;
-    border-top: 1px #aaa solid;
+    border-top: 5px #aaa solid;
+    font-size: 1.25em;
 }
 
 nav a {
@@ -18,19 +19,19 @@ nav a {
 .menu-trigger {
     order: 1;
     font-size: 1.75em;
-    width: 2em;
+    width: 1.75em;
 }
 
-header h1 {
+h4 {
     order: 2;
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 nav ul {
     display: none;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 600px){
 
     nav ul {
         display: flex;
@@ -44,7 +45,7 @@ nav ul {
         display: none;
     }
 
-    header h1 {
+    h4 {
         order: 1;
     }
 

@@ -25,6 +25,16 @@ h3 {
 	font-weight: bold;
 	font-size: 1.25em;
 }
+h4 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: normal;
+		font-size: 1em;
+		display: flex;
+    flex-flow: row;
+    background-color: #fff;
+    margin: 0;
+    padding: 0 10px;
+}
 .container{
     width: 95%;
     margin: 0 auto;
